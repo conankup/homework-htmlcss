@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Mitr:300,400,700&display=swap&subset=thai');
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mitr', sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #fff;
+}
+
+.grid-container {
+    display: grid;
+    max-width: 1160px;
+    width: 100%;
+    margin: 2em auto;
+    grid-template-columns: repeat(3, [col-start] 1fr [col-end]);
+    grid-template-rows: repeat(4, [row-start] auto [row-end]);
+    background-color: #b4b4b4;
+    padding: 1em;
+}
+
+.grid-items {
+    border: 1px solid #eb1a1a;
+}
+
+.grid1 {
+    color: #fff;
+    font-size: 2em;
+}
+
+.grid2 {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+
+.grid3 {
+    color: #fff;
+    font-size: 2em;
+    text-align: right;
+}
+
+.grid4 {
+    grid-column: col-start / col-start 4;
+    grid-row: row-start 2 / row-start 3;
+}
+
+.grid5 {
+    grid-column: col-start / col-start 4;
+    grid-row: row-start 3 / row-start 4;
+    width: 870px;
+}
+
+.grid6 {
+    grid-column: col-start / col-start 4;
+    grid-row: row-start 3 / row-start 4;
+    text-align: right;
+}
+
+.grid7 {
+    grid-column: col-start / col-start 4;
+    grid-row: row-start 4 / row-start 5;
+    height: 300px;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+
+.grid8 {
+    grid-column: col-start / col-start 3;
+    grid-row: row-start 6 / row-start 7;
+    width: 756px;
+    height: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.grid9 {
+    grid-column: col-start / col-start 4;
+    grid-row: row-start 6 / row-start 9;
+    text-align: right;
+    color: #fff;
+}
+
+.grid10 {
+    grid-column: col-start / col-start 3;
+    grid-row: row-start 7 / row-start 8;
+    width: 756px;
+    height: auto;
+    text-align: center;
+    color: #fff;
+}
+
+.grid11 {
+    grid-column: col-start / col-start 3;
+    grid-row: row-start 8 / row-start 9;
+    width: 756px;
+    height: auto;
+    text-align: center;
+    color: #fff;
+}
+.grid12{
+    grid-column: col-start / col-start 4;
+    grid-row: row-start 9 / row-start 10;
+}
+
+.flex-container {
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    flex-flow: row wrap;
+}
+
+.flex-items-1, .flex-items-2, .flex-items-3, .flex-items-4, .flex-items-5, .flex-items-6, .flex-items-7 {
+    width: 278px;
+    height: 150px;
+    background-color: #305ef5;
+    margin: 5px;
+}
+
+.flex-items-1 {
+    width: 862px;
+    height: 465px;
+}
+
+.flex-new-1, .flex-new-2, .flex-new-3, .flex-new-4, .flex-new-5 {
+    width: 150px;
+    height: 150px;
+    background-color: #305ef5;
+    margin: 2px;
+}
