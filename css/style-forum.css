@@ -1,0 +1,196 @@
+body,html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1;
+    color: rgba(233, 229, 246, 0.87);
+    background-color: #3C3963;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+element.style {
+    background-image: url(https://ptcdn.info/doodle/2019/5d07273…_ohiil4txoh.png), url(https://ptcdn.info/doodle/2019/5d07273…_fj059nwi7r.png);
+    background-size: auto, cover;
+    background-position: center, bottom;
+    background-repeat: no-repeat, repeat;
+}
+.headbg {
+    height: 236px;
+    padding-top: 186px;
+    border-bottom: 1px solid #1F1D33;
+    position: relative;
+}
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    position: relative;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #1F1D33; 
+    border-bottom: none;
+    font-size: 14px;
+    background-color: #2D2A49;
+    max-width: 1140px;
+    width: 1140px;
+    height: 49px;
+    margin: auto;
+}
+.content{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    border: 1px solid #e05;
+}
+.container-outer {
+    width: 1045px;
+    margin: auto;
+}
+.content .breadcrumb {
+    font-size: 14px;
+    height: 30px;
+    margin: 0;
+   /* margin: 5px 5px 5px 39px; */
+    padding: 8px 5px 5px 30px;*/
+}
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.content .breadcrumb li.last {
+    color: #dbdbdb;
+}
+
+.container-inner{
+    width: 1045px;
+    margin: auto;
+    padding-top: 20px;
+}
+.container-liquid {
+    /* width: 98%; */
+    max-width: 1044px;
+    min-width: 980px;
+    border: 1px solid #e58;
+
+}
+
+.ac-container-bigad {
+    width: 1045px;
+    height: 315px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #37345b;
+    border: 1px solid #403e69;
+    margin-top: 20px;
+}
+.ac-container-bigad .label-ex {
+    background: url(https://ptcdn.info/images/label-ex.png) no-repeat;
+    position: absolute;
+    width: 246px;
+    height: 43px;
+    top: -23px;
+    left: -7px;
+}
+
+.wrap-l {
+    float: left;
+    width: 683px;
+}
+.ac-container {
+    width: 683px;
+    margin-top: 25px;
+    float: left;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.75);
+}
+.ac-container .ac-heading {
+    width: 100%;
+    float: left;
+    position: relative;
+    background-color: #25223c;
+    height: 36px;
+    border-top: 1px solid #8d8663;
+    border-left: 1px solid #8d8663;
+    border-right: 1px solid #8d8663;
+    border-bottom: 1px solid #6b71a4;
+}
+
+.wrap-r {
+    float: right;
+    width: 350px;
+}
+.ac-container-r {
+    float: right;
+    margin: 25px 0 0 0;
+    width: 350px;
+    box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.75);
+}
+.ac-container-r .ac-heading {
+    width: 100%;
+    float: left;
+    position: relative;
+    background-color: #25223c;
+    height: 36px;
+    border-top: 1px solid #8d8663;
+    border-left: 1px solid #8d8663;
+    border-right: 1px solid #8d8663;
+    border-bottom: 1px solid #6b71a4;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    display: block;
+}
+.ac-container .ac-thumb {
+    float: left;
+    height: 111px;
+    width: 100%;
+    border-right: 1px solid #8d8663;
+    border-left: 1px solid #8d8663;
+    border-top: none;
+    border-bottom: 1px dotted #6b71a4;
+    background-color: #3c3963;
+    position: relative;
+}
+.banner-topic {
+    line-height: 22px;
+    position: relative;
+ /*   position: relative;
+    word-wrap: break-word;*/
+    padding-left: 140px;
+    color: #d8ca6b;
+    font-weight: bold;
+}
+
+.banner-text {
+    font-size: small;
+    line-height: 15px;
+    max-height: 30px;
+    max-width: 492px;
+    overflow: hidden;
+    padding-left: 160px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    color: #c2c2c2;
+}
